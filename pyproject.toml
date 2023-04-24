@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "temp-read"
+version = "0.1.0"
+description = ""
+authors = ["ki4igin <ki4igin@outlook.com>"]
+readme = "README.md"
+packages = [{include = "temp_read"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyserial = "^3.5"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
